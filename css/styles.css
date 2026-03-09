@@ -1,0 +1,241 @@
+/* ===================== GLOBAL ===================== */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  color: #333;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+/* ===================== NAVBAR ===================== */
+.navbar {
+  transition: 0.4s;
+  background: transparent;
+}
+.navbar.scrolled {
+  background: rgba(0,0,0,0.95) !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.navbar-nav .nav-link {
+  font-weight: 500;
+  transition: 0.3s;
+}
+.navbar-nav .nav-link:hover {
+  color: #FFD700;
+  transform: translateY(-2px);
+}
+
+/* ===================== HERO VIDEO ===================== */
+.hero-video {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+}
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+.hero-video .contenido {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.hero-video .contenido h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #FFD700; /* Amarillo Ferrari */
+}
+.hero-video .contenido p {
+  font-size: 22px;
+  color: white;
+}
+
+/* ===================== SOBRE LA MARCA ===================== */
+#marca {
+  background: #000000; /* Rojo Ferrari */
+  color: white;
+}
+#marca h2 {
+  color: #FFD700; /* Amarillo para destacar títulos */
+}
+#marca p {
+  line-height: 1.6;
+}
+
+/* ===================== LOGO ===================== */
+#logo {
+  background: #fff;
+  color: #111;
+}
+#logo h2 {
+  color: #FF2800;
+}
+#logo img {
+  margin-top: 20px;
+}
+
+/* ===================== COLORES ===================== */
+#colores {
+  background: #1c1c1c; /* fondo oscuro para resaltar colores */
+  color: white;
+}
+#colores .color {
+  border-radius: 10px;
+  padding: 30px 0;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#colores .color:hover {
+  transform: scale(1.05);
+}
+.color1 { background: #FF2800; } /* Rojo Ferrari */
+.color2 { background: #FFD700; color: #111; } /* Amarillo */
+.color3 { background: #000000; } /* Negro */
+.color4 { background: #FFFFFF; color: #111; } /* Blanco */
+
+/* ===================== TIPOGRAFÍA ===================== */
+#tipografia {
+  background: #f8f9fa;
+  color: #111;
+}
+#tipografia h2 {
+  color: #FF2800;
+}
+#tipografia p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===================== ICONOS ===================== */
+/* Video de fondo */
+#iconos .video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Overlay para contraste */
+#iconos .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+/* Contenido por encima del video */
+#iconos .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Círculos para iconos */
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: 3.5s;
+}
+.icon-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+/* ===================== USOS ===================== */
+#usos {
+  background: #fff;
+  color: #111;
+}
+#usos h2 {
+  color: #FF2800;
+}
+#usos p {
+  line-height: 1.6;
+}
+
+/* ===================== APLICACIONES ===================== */
+#aplicaciones {
+  background: #111; /* fondo oscuro */
+  color: white;
+}
+#aplicaciones h2 {
+  color: #FFD700;
+}
+
+/* ===================== AUTOS ===================== */
+#autos {
+  background: #1c1c1c;
+  color: white;
+}
+.car-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.4s;
+  margin-bottom: 20px;
+}
+.car-card img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.car-card h4 {
+  font-weight: 700;
+  color: #FF2800;
+}
+.car-card p {
+  color: #FFD700;
+}
+.car-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ===================== CONTACTO ===================== */
+#contacto {
+  background: #FF2800;
+  color: white;
+}
+#contacto h2 {
+  color: #FFD700;
+}
+.btn-light {
+  background: #FFD700;
+  color: #111;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-light:hover {
+  background: #FF2800;
+  color: white;
+}
