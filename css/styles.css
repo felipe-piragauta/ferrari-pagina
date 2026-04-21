@@ -458,3 +458,65 @@ body {
   }
 
 }
+
+/* ELIMINAR FRANJA BLANCA */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+
+  .container,
+  .container-fluid,
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    background: rgba(0,0,0,0.95);
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    overflow-x: hidden;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    width: 100%;
+    display: block;
+    padding: 12px 0;
+  }
+
+  .hero-video,
+  .section {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
