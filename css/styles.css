@@ -244,3 +244,20 @@ body {
 @media (max-width: 768px) {
    /* aquí pegas todo el bloque responsive */
 }
+
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column !important;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    background: rgba(0,0,0,0.95);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+}
