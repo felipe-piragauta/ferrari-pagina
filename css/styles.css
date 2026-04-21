@@ -239,3 +239,8 @@ body {
   background: #FF2800;
   color: white;
 }
+
+/* ===================== RESPONSIVE CELULAR ===================== */
+@media (max-width: 768px) {
+   /* aquí pegas todo el bloque responsive */
+}
